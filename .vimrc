@@ -10,13 +10,16 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Bundles
 
-Bundle 'sonph/onehalf', {'rtp': 'vim/'}
 Bundle 'gmarik/vundle' 
 Bundle 'klen/python-mode', {'for': 'python'}
 Bundle 'nvie/vim-flake8'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-airline/vim-airline'
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
 Bundle 'fatih/vim-go'
+Bundle 'crusoexia/vim-monokai'
+Bundle 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
 filetype plugin indent on
@@ -31,10 +34,11 @@ set expandtab
 set shiftwidth=4
 set cursorline
 set t_Co=256
+set termguicolors
 
-colorscheme onehalfdark
 syntax enable
+colorscheme dracula
 map <S-Tab> :NERDTreeToggle<CR>
 
 let python_highlight_all = 1
-let g:airline_theme='onehalfdark'
+let g:molokai_original = 1
