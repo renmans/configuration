@@ -15,8 +15,6 @@ Bundle 'klen/python-mode', {'for': 'python'}
 Bundle 'nvie/vim-flake8'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-airline/vim-airline'
-Bundle 'pangloss/vim-javascript'
-Bundle 'mxw/vim-jsx'
 Bundle 'fatih/vim-go'
 Bundle 'crusoexia/vim-monokai'
 Bundle 'dracula/vim', { 'name': 'dracula' }
