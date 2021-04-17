@@ -1,0 +1,3 @@
+- vimium [https://github.com/philc/vimium]
+- ublock [https://github.com/gorhill/uBlock]
+- impulse-blocker [https://github.com/raicem/impulse-blocker]
