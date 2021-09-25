@@ -15,8 +15,8 @@ Bundle 'klen/python-mode', {'for': 'python'}
 Bundle 'nvie/vim-flake8'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-airline/vim-airline'
-Bundle 'fatih/vim-go'
-Bundle 'crusoexia/vim-monokai'
+" Bundle 'fatih/vim-go'
+" Bundle 'crusoexia/vim-monokai'
 Bundle 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
@@ -40,3 +40,4 @@ map <S-Tab> :NERDTreeToggle<CR>
 
 let python_highlight_all = 1
 let g:molokai_original = 1
+let g:NERDTreeWinPos = "right"
