@@ -1,3 +1,8 @@
 - vimium [https://github.com/philc/vimium]
 - ublock [https://github.com/gorhill/uBlock]
 - impulse-blocker [https://github.com/raicem/impulse-blocker]
+- blocker
+- ClearURLs [https://gitlab.com/KevinRoebert/ClearUrls]
+- Dark Reader [https://darkreader.org/]
+- HTTPS Everywhere [https://www.eff.org/https-everywhere]
+- I don't care about cookies [https://www.i-dont-care-about-cookies.eu/]
