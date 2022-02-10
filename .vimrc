@@ -3,7 +3,7 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
@@ -16,10 +16,7 @@ Bundle 'nvie/vim-flake8'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-airline/vim-airline'
 Bundle 'vim-airline/vim-airline-themes'
-Bundle 'Valloric/YouCompleteMe'
 Bundle 'jiangmiao/auto-pairs' 
-Bundle 'crusoexia/vim-monokai'
-Bundle 'dracula/vim', { 'name': 'dracula' }
 Bundle 'alvan/vim-closetag'
 Bundle 'NLKNguyen/papercolor-theme'
 Bundle 'mhinz/vim-signify'
