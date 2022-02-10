@@ -40,6 +40,17 @@ set colorcolumn=80
 set tw=80
 set laststatus=2
 set background=dark
+" new
+set shortmess+=I
+set relativenumber
+set laststatus=2
+set backspace=indent,eol,start
+set ignorecase
+set smartcase
+set incsearch
+set mouse+=a
+" temp
+set updatetime=100
 
 syntax enable
 colorscheme PaperColor
@@ -47,6 +58,7 @@ colorscheme PaperColor
 "colorscheme dracula
 
 map <S-Tab> :NERDTreeToggle<CR>
+nmap Q <Nop>
 
 " vim transparent background
 "hi Normal guibg=NONE ctermbg=NONE
